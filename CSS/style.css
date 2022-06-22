@@ -1,4 +1,177 @@
 body{
     color: rgb(219, 203, 234);
     background-color: rgb(123, 123, 207);
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font: size 16px;
+font-weight: bold;
+
+line-height: 1.6em;
+MARGIN:0}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green
+}
+
+.clr{clear: both;}
+
+
+.CONTAINER{
+    WIDTH: 80%;
+    MARGIN:AUTO
+}
+
+.button{
+    background-color: aqua;
+    color: black;
+    padding: 10px 15px;
+    border:none
+}
+
+.button:hover{
+    background-color: red;
+    color: pink;
+}
+
+.BOX-1{background-color: black;
+    color: aliceblue;
+
+    border-right: 5PX RED solid;
+    border-left: 5PX RED solid;
+    border-top: 5PX RED solid;
+    border-bottom: 5PX RED solid;
+
+    /* SAME AS ABOVE*/
+    border: 5PX RED solid;
+    
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+
+    /*OVER WRITES ALL ABOVE - ONLY FOR EXAMPLE ABOVE TEXT*/
+    border: 5PX RED solid;
+
+    padding: 20px;
+    
+    margin: 20PX 0;
+
+}
+
+.BOX-1 H1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: O.2EM;
+    word-spacing: 1em;
+}
+
+.BOX-2{
+    border: 3PX DOTTED #ccc ;
+    padding: 20px;
+    margin:20px 0 
+}
+
+.categories{
+    border: 1px purple solid;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+.categories h2{
+text-align: center;
+}
+
+.categories ul{
+    padding:0;
+    list-style: square;
+    list-style: none;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px;
+    list-style:decimal
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my form .form.group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type=text], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    background-color: aqua;
+    color: black;
+    padding: 10px 15px;
+    border:none
+}
+
+.block{
+    float: left;
+    width:33.3%;
+    border: 1px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float:left ;
+    width: 70%;
+}
+
+#sidebar{
+    float:left ;
+    width: 30%;
+    background-color: aliceblue;
+    color: aqua;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 30px;
+    position: relative;
+}
+
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 10px;
+    right: 300px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+    
+}
